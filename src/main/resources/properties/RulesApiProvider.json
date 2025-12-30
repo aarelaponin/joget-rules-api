@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Rules API Configuration",
+        "properties": [
+            {
+                "name": "info",
+                "label": "About",
+                "type": "label",
+                "value": "Rules API provides endpoints for field dictionary, validation, compilation, and ruleset management."
+            },
+            {
+                "name": "fieldDefinitionForm",
+                "label": "Field Definition Form ID",
+                "description": "The Joget form ID containing field definitions",
+                "type": "textfield",
+                "value": "jreFieldDefinition"
+            },
+            {
+                "name": "rulesetForm",
+                "label": "Ruleset Form ID",
+                "description": "The Joget form ID for storing rulesets",
+                "type": "textfield",
+                "value": "jreRuleset"
+            }
+        ]
+    }
+]
